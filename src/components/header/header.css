@@ -1,0 +1,61 @@
+.header {
+    width: 100%;
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}   
+
+.header .logo span i {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #20AD96;
+    color: white;
+    font-size: 14px;
+}
+
+.header .logo .logo-h3 {
+    font-size: 20px;
+    color: #333461;
+}
+
+.header .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header ul li a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -2%;
+    color: #4A556C;
+}
+
+.header .nav .guide-btn a {
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #20AD96;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.2px;
+}
