@@ -1,0 +1,189 @@
+footer {
+    width: 100%;
+}
+
+footer .subscribe {
+    background-color: #FAF8F6;
+    padding: 50px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .subscribe h2 {
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 38px;
+    color: #333461;
+}
+
+footer .subscribe p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4a556c;
+}
+
+footer form {
+    padding-right: 50px;
+    display: flex;
+    gap: 15px;
+}
+
+footer form input {
+    width: 280px;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #eee;
+    font-size: 16px;
+}
+
+footer form ::placeholder {
+    color: #4A556C;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer form button {
+    width: 150px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #20AD96;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+footer form button:hover {
+    background-color: #17937F;
+}
+
+.footer-main {
+    padding: 64px 80px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    gap: 60px;
+}
+
+.fm-info {
+    width: 320px;
+}
+
+.fm-info .fm-logo {
+    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fm-logo .fm-logoh3 {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333461;
+}
+
+.fm-info .fm-logo span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #20AD96;
+    color: white;
+}
+
+.fm-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9c9ea4;
+    transition: all .55s;
+    cursor: pointer;
+}
+
+.fm-info p:hover {
+    color: #262757;
+    font-weight: 500;
+}
+
+.fm-pages h3 {
+    padding-bottom: 18px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333461;
+}
+
+.fm-pages ul li a {
+    padding-bottom: 10px;
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9c9ea4;
+    transition: all .55s;
+}
+
+.fm-pages ul li a:hover {
+    color: #262757;
+    font-weight: 500;
+}
+
+.fm-contact h3 {
+    padding-bottom: 18px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333461;
+}
+
+.fm-contact ul li a {
+    padding-bottom: 10px;
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9c9ea4;
+    transition: all .55s;
+}
+
+.fm-contact ul li a:hover {
+    color: #010114;
+    font-weight: 500;
+}
+
+.copyright {
+    margin: 0px 80px 0 80px;
+    padding: 30px;
+    border-top: 2px solid #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    transition: all.5s;
+}
+
+.social-media a {
+    padding-right: 20px;
+    color:#98A2B3;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.social-media a:hover {
+    color: #262757;
+}

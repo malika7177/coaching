@@ -1,4 +1,5 @@
 import React from 'react'
+import './sales.css'
 
 const Sales = () => {
   return (
