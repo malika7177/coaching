@@ -7,3 +7,17 @@
     list-style: none;
     border: none;
 }
+
+.btn { 
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #20AD96;
+    transition: all .55s;
+}
+
+.btn:hover {
+    background-color: #1A9482;
+}
