@@ -1,0 +1,80 @@
+.hm-clients {
+    padding-top: 80px;
+    padding-bottom: 150px;
+    background: #FAF8F6;
+}
+
+.hm-clients h1 {
+    padding-bottom: 37px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1%;
+    color: #333461;
+}
+
+.hm-clients_cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hm-clients_card {
+    padding: 48px;
+    width: 400px;
+    height: 391px;
+    background: #FFFFFF;
+    transition: all .55s;
+}
+
+.hm-clients_card:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.hm-clients_card p {
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -3%;
+    color: #4a556c;
+}
+
+.hm-clients_card span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -3%;
+    color: #4a556c;
+}
+
+.hm-clients_card h3 {
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -3%;
+    color: #333461;
+}
+
+.hm-clients_card img {
+    margin-bottom: 15px;
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.hm-clients_card .star {
+    cursor: pointer;
+    margin-right: 5px;
+    color: 
+    #DBDEE6;
+    transition: all .55s;
+}
+
+.hm-clients_card .star:hover {
+    color: #FFCB00;
+}
+
