@@ -8,6 +8,12 @@
     border: none;
 }
 
+.container {
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 190px;
+}
+
 .btn { 
     width: 100%;
     padding: 10px 20px;

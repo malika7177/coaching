@@ -1,0 +1,58 @@
+.home-help {
+    padding-top: 96px;
+    padding-right: 256px;
+}
+
+.zigzag {
+    font-size: 70px;
+    color: #3F3A64;
+}
+
+.hm-box1 {
+    display: flex;
+}
+
+.hm-box1 h1 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1%;
+    color: #333461;
+}
+
+.hm-box1 p {
+    width: 608px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #4A556C;
+}
+
+.hm-box2 {
+    padding-top: 56px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+}
+
+.hm-box2 .hm-box_icon {
+    margin-bottom: 32px;
+    font-size: 50px;
+    color: #3F3A64;
+}
+
+.hm-box2 h2 {
+    padding-bottom: 16px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -3%;
+}
+
+.hm-box2 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -2%;
+    color: #4A556C;
+}
