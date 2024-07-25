@@ -20,7 +20,7 @@ const Book = () => {
           <img src="/assets/book.jpg" alt="book" />
           <div className="book-icon">
             <SiGooglemeet />
-            meet
+            <Link to="/">meet</Link>
           </div>
         </div>
       </div>
