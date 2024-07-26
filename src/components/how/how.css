@@ -1,0 +1,85 @@
+.how {
+    padding: 96px 112px 61px;
+    background: #FAF8F6;
+}
+
+.how-heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 96px;
+}
+
+.how-info span {
+    padding-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A556C80;
+}
+
+.how-info h1 {
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -2%;
+    color: #333461;
+}
+
+.how-info p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4A556CB2;
+}
+
+.icon1,
+.icon2 {
+    display: flex;
+    gap: 19px;
+}
+
+.h-icon {
+    width: 42px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    color: #20AD96;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.how-icon h3 {
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #333461;
+}
+
+.how-icon p {
+    padding-bottom: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+
+.how-img {
+    padding-top: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.how-img img {
+    width: 768px;
+    height: 432px;
+    object-fit: cover;
+    border-radius: 15px;
+}
