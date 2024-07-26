@@ -1,0 +1,95 @@
+.testimonials {
+    width: 100%;
+    padding: 68px 80px;
+}
+
+.tes-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tes-intro p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A556C80;
+}
+
+.tes-intro h1 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -2%;
+    color: #333461;
+}
+
+.tes-btn .btn {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.tes-cards {
+    padding: 98px 222px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    text-align: center;
+}
+
+.tes-card {
+    border: 1px solid #eee;
+    padding: 20px 25px;
+    transition: all .55s;
+}
+
+.tes-card:hover {
+    -webkit-box-shadow: -1px 5px 15px 2px rgba(194, 197, 200, 0.2);
+    -moz-box-shadow: -1px 5px 15px 2px rgba(194, 197, 200, 0.2);
+    box-shadow: -1px 5px 15px 2px rgba(194, 197, 200, 0.2);
+}
+
+.tes-card p {
+    padding-bottom: 32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+.tes-card span {
+    font-weight: 400;
+    color: #667085;
+}
+
+.tes-card img {
+    margin-bottom: 16px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.tes-card h3 {
+    padding-bottom: 4px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #333461;
+}
+
+.tes-card h5 {
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A556C80;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #FEC84B;
+    cursor: pointer;
+}
