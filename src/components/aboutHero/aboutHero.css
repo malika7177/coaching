@@ -1,0 +1,89 @@
+.about-hero {
+    width: 100%;
+    padding: 60px 166px 0 85px;
+    background: #FAF8F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 182px;
+}
+
+.about-hero_info span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -2%;
+    color: #4A556C;
+}
+
+.about-hero_info h1 {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 86.4px;
+    letter-spacing: -1%;
+    color: #333461;
+}
+
+.about-hero_info p {
+    padding-bottom: 23px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #4A556C;
+}
+
+.about-hero_img_container {
+    position: relative;
+}
+
+.about-hero_img img {
+    width: 462px;
+    height: 603px;
+    object-fit: cover;
+}
+
+.about-hero_img_icons .a-icon1 {
+    position: absolute;
+    top: -40px;
+    left: 127px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 48px 72px 0px #B1BAC81F;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule {
+    font-size: 50px;
+    color: #3F3A64;
+}
+
+.a-icon2 {
+    position: absolute;
+    top: 240px;
+    right: -100px;
+    padding: 32px 40px;
+    background: #ffffff;
+    box-shadow: 0px 48px 72px 0px #B1BAC81F;
+}
+
+.chat {
+    margin-left: 50px;
+    font-size: 50px;
+    color: #20AD96;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.a-icon2 span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #4A556C;
+}
