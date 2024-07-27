@@ -1,0 +1,102 @@
+.download {
+    width: 100%;
+    padding: 54px 78px 63px 63px;
+}
+
+.download-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.download-img .img1 {
+    margin: 171px 55px 92px 186px;
+    width: 114px;
+    height: 114px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.download-img .img2 {
+    width: 58px;
+    height: 58px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.download-info {
+    padding-top: 94px;
+    text-align: center;
+}
+
+.download-info h1 {
+    padding-bottom: 16px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1%;
+    text-align: center;
+    color: #333461;
+}
+
+.download-info h1 span {
+    color: #20AD96;
+}
+
+.download-info p {
+    padding-bottom: 40px;
+    padding-left: 95px;
+    padding-right: 95px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: #4A556CCC;
+}
+
+.download-info .btn {
+    display: block;
+    width: 250px;
+    margin-left: 240px;
+    margin-bottom: 70px;
+}
+
+.reviews span{ 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A556C80;
+}
+
+.download-stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 7px;
+    cursor: pointer;
+    color: #FEC84B;
+}
+
+.img3 {
+    margin: 52px 155px 54px 24px;
+    width: 76px;
+    height: 76px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.img4 {
+    margin: 23px 15px 108px 234px;
+    width: 42px;
+    height: 42px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.img5 {
+    margin-left: 100px;
+    width: 62px;
+    height: 62px;
+    background-size: cover;
+    border-radius: 50%;
+}
