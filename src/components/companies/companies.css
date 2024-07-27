@@ -1,0 +1,19 @@
+.companies {
+    width: 100%;
+    padding: 96px 80px;
+}
+
+.companies p {
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #667085;
+}
+
+.companies-imgs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
