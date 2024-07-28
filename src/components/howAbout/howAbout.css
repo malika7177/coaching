@@ -1,0 +1,75 @@
+.how-about {
+    width: 100%;
+    padding: 96px 80px;
+}
+
+.ha-heading {
+    text-align: center;
+}
+
+.ha-heading span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A556C80;
+    padding-bottom: 12px;
+}
+
+.ha-heading h1 {
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -2%;
+    color: #333461;
+}
+
+.ha-heading p {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 64px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4A556CB2;
+}
+
+.ha-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 42px;
+    row-gap: 64px;
+    text-align: center;
+}
+
+.ha-card .ha-card_icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #FAF8F6; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 178px;
+    color: #3F3A64;
+}
+
+.ha-icon {
+    font-size: 22px;
+}
+
+.ha-card h3 {
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333461;
+}
+
+.ha-card p  {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
