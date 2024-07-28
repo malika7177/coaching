@@ -1,0 +1,22 @@
+.guarantee {
+    width: 100%;
+    padding: 120px 450px;
+    text-align: center;
+}
+
+.guarantee h1 {
+    padding-bottom: 24px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: #333461;
+}
+
+.guarantee p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4A556CB2;
+
+}
