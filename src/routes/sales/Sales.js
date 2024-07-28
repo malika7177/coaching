@@ -5,6 +5,7 @@ import Testimonials from '../../components/testimonials/Testimonials'
 import Book from '../../components/book/Book'
 import SalesHero from '../../components/salesHero/SalesHero'
 import HowAbout from '../../components/howAbout/HowAbout'
+import GoodToKnow from '../../components/goodToKnow/GoodToKnow'
 
 const Sales = () => {
   return (
@@ -14,6 +15,7 @@ const Sales = () => {
       <How />
       <Testimonials />
       <Book />
+      <GoodToKnow />
     </div>
   )
 }
