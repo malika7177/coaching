@@ -1,0 +1,48 @@
+.sales-hero {
+    width: 100%;   
+    padding: 55px 50px 50px 34px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 182px;
+}
+
+.sh-zigzag {
+    margin-bottom: 48px;
+    font-size: 70px;
+    color: #20AD96;
+}
+
+.sh-info {
+    padding-left: 85px;
+}
+
+.sh-info span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -2%;
+    color: #4a556c;
+}
+
+.sh-info h1 {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 86.4px;
+    letter-spacing: -1%;
+    color: #333461;
+}
+
+.sh-info p {
+    padding-top: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #4a556c;
+}
+
+.sh-img img {
+    width: 462px;
+    height: 603px;
+    object-fit: cover;
+}

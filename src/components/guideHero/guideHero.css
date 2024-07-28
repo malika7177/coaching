@@ -67,3 +67,19 @@ form input {
     top: -600px;
     left: 50px;
 }
+
+.img-guide p {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #20AD96;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 30px;
+    top: -20px;
+}

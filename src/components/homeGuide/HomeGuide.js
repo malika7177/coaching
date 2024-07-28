@@ -46,7 +46,7 @@ const HomeGuide = () => {
           </div>
         </div>
       </div>
-      <div className="img-guide">
+      <div className="img-guide1">
         <p>Free Guide!</p>
       </div>
     </section>
