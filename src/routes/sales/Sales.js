@@ -7,6 +7,7 @@ import SalesHero from '../../components/salesHero/SalesHero'
 import HowAbout from '../../components/howAbout/HowAbout'
 import GoodToKnow from '../../components/goodToKnow/GoodToKnow'
 import Guarantee from '../../components/guarantee/Guarantee'
+import ProCons from '../../components/proCons/ProCons'
 
 const Sales = () => {
   return (
@@ -15,6 +16,7 @@ const Sales = () => {
       <HowAbout />
       <How />
       <Testimonials />
+      <ProCons />
       <Book />
       <Guarantee />
       <GoodToKnow />

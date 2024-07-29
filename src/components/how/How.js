@@ -39,7 +39,7 @@ const How = () => {
         </div>
       </div>
       <div className="how-img">
-        <img src="/assets/article2.jpg" />
+        <img src="/assets/article2.jpg" alt="article" />
       </div>
     </section>
   );

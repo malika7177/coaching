@@ -1,0 +1,84 @@
+.proCons {
+    width: 100%;
+    padding: 49px 245px 66px 345px;
+    margin-bottom: 165px;
+    background: #FAF8F6;
+}
+
+.proCons-info {
+    text-align: center;
+}
+
+.proCons-info span {
+    padding-bottom: 9px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A556C80;
+}
+
+.proCons-info h1 {
+    padding-bottom: 101px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -2%;
+    color: #333461;
+}
+
+.proCons-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 76px;
+}
+
+.con h2,
+.pro h2 {
+    text-align: center;
+    padding-bottom: 74px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26.4px;
+    letter-spacing: -1%;
+    color: #333461;
+}
+
+.con h2 span {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.con-content, 
+.pro-content {
+    width: 332px;
+}
+
+.pro {
+    background: #ffffff;
+    padding: 58px 57px;
+}
+
+.box {
+    display: flex;
+    gap: 12px;
+    padding-bottom: 28px;
+}
+
+.box .con-icon {
+    font-size: 20px;
+    color: #EB4646;
+}
+
+.box .pro-icon {
+    font-size: 20px;
+    font-weight: 700;
+    color: #669180;
+}
+
+.box p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
