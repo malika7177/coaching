@@ -1,0 +1,42 @@
+.s-hero {
+    width: 100%;
+    padding: 92px 90px 92px 86px;
+    background: #FAF8F6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 181px;
+}
+
+.s-hero_info {
+    padding-top: 100px;
+}
+
+.s-hero_info span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -2%;
+    color: #4A556C;
+}
+
+.s-hero_info h1 {
+    padding-bottom: 30px;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 86.4px;
+    letter-spacing: -1%;
+    color: #333461;
+}
+
+.s-hero_info p { 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #4A556C;
+}
+
+.s-hero_img img {
+    width: 462px;
+    height: 603px;
+    object-fit: cover;
+}
