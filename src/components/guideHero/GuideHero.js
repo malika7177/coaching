@@ -2,6 +2,7 @@ import React from "react";
 import "./guideHero.css";
 import { Link } from "react-router-dom";
 import { RiChat1Line } from "react-icons/ri";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const GuideHero = () => {
   return (
@@ -29,7 +30,11 @@ const GuideHero = () => {
 
       <div className="gh-img">
         <div className="hm-guide_img">
-          <img src="/assets/homeGuide.jpg" alt="home guide" />
+          <LazyLoadImage
+            src="/assets/homeGuide.jpg"
+            alt="home guide"
+            loading="lazy"
+          />
           <div className="hm-guide_img_content">
             <h1>
               Are you <br /> ready to <br /> transform <br />

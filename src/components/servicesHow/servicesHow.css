@@ -1,0 +1,92 @@
+.s-how {
+    width: 100%;
+    padding: 96px 80px;
+}
+
+.s-how_info {
+    width: 490px;
+    padding-bottom: 64px;
+}
+
+.s-how_info span {
+    padding-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A556C80;
+}
+
+.s-how_info h1 {
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59.53px;
+    letter-spacing: -2%;
+    color: #333461;
+}
+
+.s-how_info p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4A556CB2;
+}
+
+.s-how_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 96px;
+}
+
+.content-info{ 
+    padding-top: 52px;
+}
+
+.content-info .content-box {
+    padding-bottom: 48px;
+    display: flex;
+    gap: 16px;
+}
+
+.info-icons {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #FAF8F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.info-icon {
+    width: 23px;
+    height: 23px;
+    color: #3F3A64;
+    transition: all .5s;
+}
+
+.content-box:hover .info-icon {
+    color: #20AD96;
+}
+
+.content-box h3 {
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #333461;
+}
+
+.content-box p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+
+.content-img img {
+    width: 560px;
+    height: 560px;
+    object-fit: cover;
+}

@@ -3,6 +3,7 @@ import "./aboutHero.css";
 import { GrFormSchedule } from "react-icons/gr";
 import { IoMdChatbubbles } from "react-icons/io";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const AboutHero = () => {
   return (
@@ -22,7 +23,11 @@ const AboutHero = () => {
       </div>
       <div className="about-hero_img_container">
         <div className="about-hero_img">
-          <img src="/assets/article1.jpg" alt="person" />
+          <LazyLoadImage
+            src="/assets/article1.jpg"
+            alt="person"
+            loading="lazy"
+          />
         </div>
         <div className="about-hero_img_icons">
           <div className="a-icon1">

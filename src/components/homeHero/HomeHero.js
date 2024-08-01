@@ -3,6 +3,7 @@ import "./homeHero.css";
 import { CgShapeZigzag } from "react-icons/cg";
 import { BiTargetLock } from "react-icons/bi";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const HomeHero = () => {
   return (
@@ -26,7 +27,8 @@ const HomeHero = () => {
           </div>
         </div>
         <div className="hm-hero_img">
-          <img src="/assets/home-hero.jpg" alt="hero"></img>
+          <LazyLoadImage
+           src="/assets/home-hero.jpg" alt="hero" loading="lazy"/>
           <div className="img-target">
             <div>
               <BiTargetLock className="target" />
