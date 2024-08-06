@@ -8,6 +8,11 @@
     border: none;
 }
 
+::selection {
+    background-color: #20AD96;
+    color: white;
+}
+
 .container {
     width: 100%;
     padding-left: 150px;
