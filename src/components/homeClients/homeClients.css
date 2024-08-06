@@ -1,6 +1,5 @@
 .hm-clients {
-    padding-top: 80px;
-    padding-bottom: 150px;
+    padding: 80px 14px 150px 152px;
     background: #FAF8F6;
 }
 
@@ -41,12 +40,13 @@
     color: #4a556c;
 }
 
-.hm-clients_card span {
+.hm-clients_card:hover span {
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -3%;
     color: #4a556c;
+    transition: all 1s;
 }
 
 .hm-clients_card h3 {
@@ -74,7 +74,6 @@
     transition: all .55s;
 }
 
-.hm-clients_card .star:hover {
+.hm-clients_card:hover .star{
     color: #FFCB00;
 }
-

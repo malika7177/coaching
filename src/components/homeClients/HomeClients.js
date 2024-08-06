@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 
 const HomeClients = () => {
   return (
-    <section className="hm-clients container">
+    <section className="hm-clients">
       <h1>
         Hear out what my <br /> clients say about me.
       </h1>
@@ -26,7 +26,7 @@ const HomeClients = () => {
         </div>
         <div className="hm-clients_card">
           <p>
-            "I gained so much confidence in my ability to connect and deepen my
+            "I gained so much <span>confidence</span> in my ability to connect and deepen my
             relationships with people. "
           </p>
           <h3>Catherine</h3>
@@ -41,7 +41,7 @@ const HomeClients = () => {
         </div>
         <div className="hm-clients_card">
           <p>
-            "I gained so much confidence in my ability to connect and deepen my
+            "I gained so much <span>confidence</span> in my ability to connect and deepen my
             relationships with people. "
           </p>
           <h3>Angelina</h3>
