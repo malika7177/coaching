@@ -59,6 +59,10 @@
     font-weight: 500;
 }
 
+.header a.active {
+    font-weight: 700;
+}
+
 .header .nav .guide-btn a {
     padding: 10px 20px;
     border: none;

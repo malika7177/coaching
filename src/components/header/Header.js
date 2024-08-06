@@ -1,5 +1,5 @@
 import React from "react";
-import { Link} from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./header.css";
 import { LuMessageSquare } from "react-icons/lu";
 
@@ -8,23 +8,23 @@ const Header = () => {
     <div className="header">
       <Link to="/" className="logo">
         <span>
-        <LuMessageSquare className="header-icon"/>
+          <LuMessageSquare className="header-icon" />
         </span>
         <h3 className="logo-h3">Happy Coaching</h3>
       </Link>
       <div className="nav">
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <Link to="/services">Services</Link>
+            <NavLink to="/services">Services</NavLink>
           </li>
           <li>
-            <Link to="/about">About us</Link>
+            <NavLink to="/about">About us</NavLink>
           </li>
           <li>
-            <Link to="/sales">Extra Sales</Link>
+            <NavLink to="/sales">Extra Sales</NavLink>
           </li>
         </ul>
         <div className="guide-btn">
