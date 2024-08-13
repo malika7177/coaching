@@ -1,47 +1,40 @@
 import React from "react";
 import "./aboutClients.css";
+// import AboutClientsData from '../../data/AboutClientsData'
+import "swiper/css";
+import { Swiper, SwiperSlide } from "swiper/react";
 
-const AboutClients = () => {
+import { Autoplay } from "swiper/modules";
+
+const AboutClients = ({AboutClientsData}) => {
   return (
     <section className="about-clients">
       <h1>
         Hear out what my <br />
         clients say about me.
       </h1>
-      <div className="ac-cards">
-        <div className="ac-card">
-          <h2>5/5</h2>
-          <p>
-            "I gained so much <br /> <span>confidence</span> in my ability to connect and deepen my
-            relationships with people. "
-          </p>
-          <h3>Jane</h3>
-          <div className="ac-card_img">
-            <img src="/assets/person3.png" alt="person" />
-          </div>
-        </div>
-        <div className="ac-card">
-          <h2>5/5</h2>
-          <p>
-            “Denise helped me <span>organise</span> my diet. Highly recommend her services!”
-          </p>
-          <h3>Catherine</h3>
-          <div className="ac-card_img">
-            <img src="/assets/person2.png" alt="person" />
-          </div>
-        </div>
-        <div className="ac-card">
-          <h2>5/5</h2>
-          <p>
-            "I gained so much <br /> <span>confidence</span> in my ability to connect and deepen my
-            relationships with people. "
-          </p>
-          <h3>Jane</h3>
-          <div className="ac-card_img">
-            <img src="/assets/person3.png" alt="person" />
-          </div>
-        </div>
-      </div>
+      <Swiper
+      spaceBetween={50}
+      slidesPerView={3}
+      autoplay={{
+        delay: 2000,
+        disableOnInteraction: false,
+      }}
+      modules={[Autoplay]}
+      className="ac-cards">
+        {AboutClientsData.map((item) => {
+          return (
+            <SwiperSlide className="ac-card" key={item.id}>
+              <h2>{item.number}</h2>
+              <p>{item.comment}</p>
+              <h3>{item.name}</h3>
+              <div className="ac-card_img">
+                <img src={item.img} alt="person" />
+              </div>
+            </SwiperSlide>
+          )
+        })}
+      </Swiper>
     </section>
   );
 };

@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright">
-        <Link to="https://t.me/Djurayeva_M7177">
+        <Link to="https://github.com/malika7177">
           Made By <b>Malika Djurayeva</b>
         </Link>
         <div className="social-media">
