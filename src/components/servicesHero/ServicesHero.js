@@ -1,5 +1,7 @@
 import React from "react";
 import "./servicesHero.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const ServicesHero = () => {
   return (
@@ -15,7 +17,7 @@ const ServicesHero = () => {
         </p>
       </div>
       <div className="s-hero_img">
-        <img src="/assets/s-hero.jpg" alt="person" />
+        <LazyLoadImage effect="blur" src="/assets/s-hero.jpg" alt="person" />
       </div>
     </section>
   );

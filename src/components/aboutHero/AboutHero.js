@@ -4,6 +4,7 @@ import { GrFormSchedule } from "react-icons/gr";
 import { IoMdChatbubbles } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const AboutHero = () => {
   return (
@@ -26,7 +27,7 @@ const AboutHero = () => {
           <LazyLoadImage
             src="/assets/article1.jpg"
             alt="person"
-            loading="lazy"
+            effect="blur"
           />
         </div>
         <div className="about-hero_img_icons">
