@@ -2,6 +2,9 @@ import React from "react";
 import "./proCons.css";
 import { FaRegCircleXmark } from "react-icons/fa6";
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
+import Aos from "aos";
+import 'aos/dist/aos.css'
+
 const ProCons = () => {
   return (
     <section className="proCons">
@@ -13,44 +16,44 @@ const ProCons = () => {
       </div>
       <div className="proCons-content">
         <div className="con">
-          <h2>
+          <h2 data-aos="zoom-in">
             This is <span>not</span> for you if...
           </h2>
           <div className="con-content">
-            <div className="box">
+            <div className="box" data-aos="fade-right">
               <FaRegCircleXmark className="con-icon" />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
-            <div className="box">
+            <div className="box" data-aos="fade-right">
               <FaRegCircleXmark className="con-icon" />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
-            <div className="box">
+            <div className="box" data-aos="fade-right">
               <FaRegCircleXmark className="con-icon" />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
-            <div className="box">
+            <div className="box" data-aos="fade-right">
               <FaRegCircleXmark className="con-icon" />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
           </div>
         </div>
         <div className="pro">
-          <h2>This is for you if...</h2>
+          <h2 data-aos="zoom-in">This is for you if...</h2>
           <div className="pro-content">
-            <div className="box">
+            <div className="box" data-aos="fade-left">
               <IoCheckmarkCircleOutline className="pro-icon" />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
-            <div className="box">
+            <div className="box" data-aos="fade-left">
               <IoCheckmarkCircleOutline className="pro-icon" />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
-            <div className="box">
+            <div className="box" data-aos="fade-left">
               <IoCheckmarkCircleOutline className="pro-icon" />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
-            <div className="box">
+            <div className="box" data-aos="fade-left">
               <IoCheckmarkCircleOutline className="pro-icon" />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
