@@ -1,9 +1,14 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./homeGuide.css";
 import { Link } from "react-router-dom";
 import { RiChat1Line } from "react-icons/ri";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 const HomeGuide = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <section className="home-guide container">
       <div className="hm-guide_info">
@@ -29,7 +34,7 @@ const HomeGuide = () => {
       <div className="hm-guide_img">
         <img src="/assets/homeGuide.jpg" alt="home guide" />
         <div className="hm-guide_img_content">
-          <h1>
+          <h1 data-aos="fade-left">
             Are you <br /> ready to <br /> transform <br />
             your life?
           </h1>
@@ -37,7 +42,7 @@ const HomeGuide = () => {
             <div className="icon-chat">
               <RiChat1Line className="chat" />
             </div>
-            <div>
+            <div data-aos="zoom-in">
               <p>Ready to start? Lets's talk!</p>
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
