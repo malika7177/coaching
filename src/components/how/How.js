@@ -2,13 +2,15 @@ import React from "react";
 import "./how.css";
 import { SiSkypeforbusiness } from "react-icons/si";
 import { RiChat1Line } from "react-icons/ri";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 
 const How = () => {
   return (
     <section className="how">
       <div className="how-heading">
-        <div className="how-info">
+        <div className="how-info" data-aos="fade-right">
           <span>How does it work?</span>
           <h1>Are you ready to transform your life?</h1>
           <p>
@@ -18,7 +20,7 @@ const How = () => {
           </p>
         </div>
         <div className="how-icon">
-          <div className="icon1">
+          <div className="icon1" data-aos="fade-left">
             <div className="h-icon">
             <SiSkypeforbusiness className="icon" />
             </div>
@@ -27,7 +29,7 @@ const How = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
             </div>
           </div>
-          <div className="icon2">
+          <div className="icon2" data-aos="fade-left">
             <div className="h-icon">
             <RiChat1Line className="icon" />
             </div>
