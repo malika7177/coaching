@@ -1,14 +1,19 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./salesHero.css";
 import { CgShapeZigzag } from "react-icons/cg";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 const SalesHero = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <section className="sales-hero">
-      <div>
+      <div data-aos="flip-right">
         <CgShapeZigzag className="sh-zigzag" />
         <div className="sh-info">
           <span>Proven strategies backed by science for success.</span>
