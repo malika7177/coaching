@@ -1,15 +1,20 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./aboutHero.css";
 import { GrFormSchedule } from "react-icons/gr";
 import { IoMdChatbubbles } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 const AboutHero = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <section className="about-hero">
-      <div className="about-hero_info">
+      <div className="about-hero_info" data-aos="fade-right">
         <span>Proven strategies backed by science for success.</span>
         <h1>About me</h1>
         <p>
