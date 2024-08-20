@@ -1,15 +1,20 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./homeHero.css";
 import { CgShapeZigzag } from "react-icons/cg";
 import { BiTargetLock } from "react-icons/bi";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import Aos from "aos";
+import 'aos/dist/aos.css';
 
 const HomeHero = () => {
+   useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <section className="home-hero">
-      <div className="hm-hero_content">
+      <div className="hm-hero_content"  data-aos="zoom-in-right">
         <div className="hm-hero_icon">
           <CgShapeZigzag />
         </div>
