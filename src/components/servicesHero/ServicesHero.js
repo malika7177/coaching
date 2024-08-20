@@ -1,12 +1,17 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./servicesHero.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 const ServicesHero = () => {
+   useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <section className="s-hero">
-      <div className="s-hero_info">
+      <div className="s-hero_info" data-aos="zoom-in">
         <span>I can help you in these patricular areas.</span>
         <h1>I help people to discover their true potential</h1>
         <p>
